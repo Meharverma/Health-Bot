@@ -1,0 +1,46 @@
+{
+  "id": "7fcd48f6-972c-472d-8e63-f3c6b58eb131",
+  "parentId": "f35be256-7d20-4e3a-bdb5-b21b114dc76e",
+  "rootParentId": "35848d6c-c55e-462f-84e8-3f428e7b59c4",
+  "name": "Cold.flu - yes - yes - yes",
+  "auto": true,
+  "contexts": [
+    "Coldflu-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Coldflu.Coldflu-yes.Coldflu-yes-yes.Coldflu-yes-yes-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "hello please see the doctor"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "hi",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

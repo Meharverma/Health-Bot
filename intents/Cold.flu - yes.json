@@ -1,0 +1,52 @@
+{
+  "id": "60fa5517-1f5b-4c58-b65f-fa51fda26400",
+  "parentId": "35848d6c-c55e-462f-84e8-3f428e7b59c4",
+  "rootParentId": "35848d6c-c55e-462f-84e8-3f428e7b59c4",
+  "name": "Cold.flu - yes",
+  "auto": true,
+  "contexts": [
+    "await_choice",
+    "Coldflu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Coldflu.Coldflu-yes",
+      "affectedContexts": [
+        {
+          "name": "Coldflu-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "does your fever raise the above 100 degree"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "hi",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

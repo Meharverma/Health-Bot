@@ -1,0 +1,51 @@
+{
+  "id": "f35be256-7d20-4e3a-bdb5-b21b114dc76e",
+  "parentId": "60fa5517-1f5b-4c58-b65f-fa51fda26400",
+  "rootParentId": "35848d6c-c55e-462f-84e8-3f428e7b59c4",
+  "name": "Cold.flu - yes - yes",
+  "auto": true,
+  "contexts": [
+    "Coldflu-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Coldflu.Coldflu-yes.Coldflu-yes-yes",
+      "affectedContexts": [
+        {
+          "name": "Coldflu-yes-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "do you have stomach ache"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "hi",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

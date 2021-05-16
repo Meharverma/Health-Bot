@@ -1,0 +1,41 @@
+[
+  {
+    "id": "5c8ce029-b23b-45b1-84bc-9a13e60af64f",
+    "data": [
+      {
+        "text": "exit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6875ef1e-e3dd-4609-bf01-8ea29bf38d12",
+    "data": [
+      {
+        "text": "have a nice day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d0cb56ac-661c-46f8-b24d-0e215fab94d1",
+    "data": [
+      {
+        "text": "goodbye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
